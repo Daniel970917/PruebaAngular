@@ -1,0 +1,14 @@
+*{
+    font-size: 15px;
+}
+
+body{
+    margin-top: 20px;
+}
+.d-flex{
+    width: 600px;
+    margin: auto;
+}
+.Paginacion{
+    text-align: center;
+}

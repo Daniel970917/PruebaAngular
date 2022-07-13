@@ -1,0 +1,39 @@
+#Formulario{
+    float: left;
+    margin-left: 700px;
+    margin-top: 100px;
+}
+
+body{
+    background-image:url(/assets/Imagenes/carre.jpg);
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.form-group{
+   width: 600px;
+}
+label{
+    color: rgb(74, 221, 135);
+}
+/*aside{
+    float: right;
+    background-image: url(/assets/Imagenes/carre.jpg);
+    width: 60%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    min-height: 100%;
+}*/
+
+.card{
+    border: none;
+    width: 500px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(90deg, hsla(205,46%, 30%, 1) 0%, hsla(260,29%, 36%,1) 100%);
+}

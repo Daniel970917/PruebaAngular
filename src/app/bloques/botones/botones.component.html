@@ -1,0 +1,12 @@
+<div class="topnav bg-dark">
+    <a class="" routerLink="" >Inicio</a>
+    <a class="" routerLink="pantalla1" [routerLinkActive]="'active'">Usuarios</a>
+    <a class="" routerLink="pantalla2" [routerLinkActive]="'active'">Productos</a>
+    <a class="" routerLink="pantalla3" [routerLinkActive]="'active'">Lista de Productos</a>
+    
+    <div class="topnav-right">
+        <a href="" class="btn btn-success" routerLink="registro" *ngIf="!usuarioLogueado">Iniciar Sesion</a>
+        <a (click)="logout()" routerLink="" class="btn btn-danger" style="cursor: pointer;" *ngIf="usuarioLogueado">Cerrar sesion</a>
+    </div>
+</div>
+

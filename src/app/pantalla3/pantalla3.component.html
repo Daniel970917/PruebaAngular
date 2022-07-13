@@ -1,0 +1,31 @@
+<div class="container mt-3">
+  <div class="input-group mb-3">
+    <label class="input-group-text" for="inputGroupSelect01">Ordenar por: </label>
+    <select [(ngModel)]='ngDropdown' ngOption="" class="form-select" id="inputGroupSelect01"
+      formControlName="Categoria">
+      <option value="Precio">Precio más bajo</option>
+      <option value="Oficina">Precio más alto</option>
+      <option value="Comedor">Nombre creciente</option>
+      <option value="Salon">Nombre decreciente</option>
+    </select>
+  </div>
+  <div class="row">
+    <div class="col-lg-4 col-md-6 col-sm-12" *ngFor="let row of ProductosData
+        | 
+        paginate: {itemsPerPage: 10, currentPage: pageActual}; let i = index">
+      <div class="card">
+        <div class="arriba">
+          <img src="{{row.Imagen}}" class="card-img-top">
+        </div>
+        <div class="card-body">
+          <h2>{{row.Nombre}}</h2>
+          <p>Precio: ${{row.Precio}}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="Paginacion">
+      <pagination-controls (pageChange)="pageActual = $event"></pagination-controls>
+    </div>
+  </div>
+</div>

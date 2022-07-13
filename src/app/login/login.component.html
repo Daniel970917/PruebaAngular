@@ -1,0 +1,28 @@
+<body>
+    <div id="Formulario">
+        <h2>Formulario de Registro de Usuario</h2>
+        <form (ngSubmit)="Ingresar()" [formGroup]="loginForm">
+            <div class="mb-3">
+                <label for="Correo" class="form-label">Email address</label>
+                <input formControlName="Correo" type="email" class="form-control" id="exampleInputEmail1"
+                    aria-describedby="emailHelp" placeholder="name@example.com">
+                <div *ngIf="Correo?.invalid && (Correo?.dirty || Correo?.touched)" class="alert alert-danger">
+                    <div *ngIf="Correo?.errors?.['required']">
+                        El Correo es requerido
+                    </div>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="Password" class="form-label">Password</label>
+                <input formControlName="Password" type="password" class="form-control" id="exampleInputPassword1">
+                <div *ngIf="Password?.invalid && (Password?.dirty || Password?.touched)" class="alert alert-danger">
+                    <div *ngIf="Password?.errors?.['required']">
+                        El password es requerido
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-success" [disabled]="loginForm.invalid">Login</button>
+            <button type="button" class="btn btn-secondary" (click)="refrescar()">Refrescar</button>
+        </form>
+    </div>
+</body>

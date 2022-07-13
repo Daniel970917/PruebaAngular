@@ -1,0 +1,345 @@
+{
+  "Usuarios": [
+    {
+      "idE": 1,
+      "Nombre": "Daniel Enrique",
+      "Password": "Daniel970917",
+      "ApellidoP": "Cruz ",
+      "ApellidoM": "Reyes",
+      "Correo": "Daniel.decr74@gmail.com",
+      "Permisos": "Gerente",
+      "id": 1
+    },
+    {
+      "idE": 2,
+      "Nombre": "Alondra",
+      "Password": "Alondra123",
+      "ApellidoP": "Abrego",
+      "ApellidoM": "Balderas",
+      "Correo": "Ab@gmail.com",
+      "Permisos": "Ventas",
+      "id": 2
+    },
+    {
+      "idE": 3,
+      "Nombre": "vic",
+      "Password": "Victor123",
+      "ApellidoP": "Lopez",
+      "ApellidoM": "Gamez",
+      "Correo": "victor@gmail.com",
+      "Permisos": "Ventas",
+      "id": 3
+    },
+    {
+      "idE": 4,
+      "Password": "",
+      "Nombre": "Chistian",
+      "ApellidoP": "perez",
+      "ApellidoM": "Lopez",
+      "Correo": "chris@",
+      "Permisos": "Ventas",
+      "id": 4
+    },
+    {
+      "idE": 5,
+      "Password": "",
+      "Nombre": "Victor",
+      "ApellidoP": "Lopez",
+      "ApellidoM": "Peres",
+      "Correo": "victo2@",
+      "Permisos": "Recursos Humanos",
+      "id": 5
+    },
+    {
+      "idE": 6,
+      "Nombre": "Alondra",
+      "ApellidoP": "Abrego",
+      "ApellidoM": "bal",
+      "Correo": "abrego@gmail.com",
+      "Permisos": "Gerente",
+      "id": 6
+    },
+    {
+      "idE": 8,
+      "Nombre": "erika",
+      "ApellidoP": "Morales",
+      "ApellidoM": "Vasquez",
+      "Correo": "Eri@gmail.com",
+      "Permisos": "Recursos Humanos",
+      "id": 8
+    },
+    {
+      "idE": 9,
+      "Nombre": "Josue",
+      "ApellidoP": "Quintero ",
+      "ApellidoM": "Rossainz",
+      "Correo": "josue@gmail.com",
+      "Permisos": "Ventas",
+      "id": 9
+    },
+    {
+      "idE": 0,
+      "Password": "",
+      "Nombre": "Erika",
+      "ApellidoP": "Morales",
+      "ApellidoM": "Vasquez",
+      "Correo": "Erika@gmail.com",
+      "Permisos": "Recursos Humanos",
+      "id": 11
+    },
+    {
+      "idE": 0,
+      "Password": "",
+      "Nombre": "Angel",
+      "ApellidoP": "Cruz",
+      "ApellidoM": "Reyes",
+      "Correo": "Angel@gmail.com",
+      "Permisos": "Recursos Humanos",
+      "id": 12
+    },
+    {
+      "idE": 13,
+      "Password": "",
+      "Nombre": "Monica",
+      "ApellidoP": "Morales",
+      "ApellidoM": "Vasquez",
+      "Correo": "Monica@gmail.com",
+      "Permisos": "Recursos Humanos",
+      "id": 13
+    }
+  ],
+  "Productos": [
+    {
+      "idP": 1,
+      "Nombre": "Sofá ",
+      "Precio": "11000",
+      "Imagen": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_640/https://www.cehipar.es/wp-content/uploads/2020/07/Sofa.jpg",
+      "Categoria": "Salon",
+      "id": 1
+    },
+    {
+      "idP": 2,
+      "Nombre": "Mesa",
+      "Precio": "14000",
+      "Imagen": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_640/https://www.cehipar.es/wp-content/uploads/2020/07/Mesa.jpg",
+      "Categoria": "Comedor",
+      "id": 2
+    },
+    {
+      "idP": 3,
+      "Nombre": "Silla",
+      "Precio": "200",
+      "Imagen": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_640/https://www.cehipar.es/wp-content/uploads/2020/07/Silla.jpg",
+      "Categoria": "Comedor",
+      "id": 3
+    },
+    {
+      "idP": 4,
+      "Nombre": "Cama",
+      "Precio": "5000",
+      "Imagen": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_640/https://www.cehipar.es/wp-content/uploads/2020/07/Cama.jpg",
+      "Categoria": "Dormitorio",
+      "id": 4
+    },
+    {
+      "idP": 5,
+      "Nombre": "Escritorio",
+      "Precio": "1800",
+      "Imagen": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_640/https://www.cehipar.es/wp-content/uploads/2020/07/Escritorio.jpg",
+      "Categoria": "Oficina",
+      "id": 5
+    },
+    {
+      "idP": 6,
+      "Nombre": "Colchón ",
+      "Precio": "3000",
+      "Imagen": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_640/https://www.cehipar.es/wp-content/uploads/2020/07/Colchon.jpg",
+      "Categoria": "Dormitorio",
+      "id": 6
+    },
+    {
+      "idP": 7,
+      "Nombre": "Cómoda ",
+      "Precio": "5000",
+      "Imagen": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_640/https://www.cehipar.es/wp-content/uploads/2020/07/Comoda.jpg",
+      "Categoria": "Dormitorio",
+      "id": 7
+    },
+    {
+      "idP": 8,
+      "Nombre": "Otomanas",
+      "Precio": "1500",
+      "Imagen": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_640/https://www.cehipar.es/wp-content/uploads/2020/07/Otomana.jpg",
+      "Categoria": "Salon",
+      "id": 8
+    },
+    {
+      "idP": 9,
+      "Nombre": "Mesa de comedor",
+      "Precio": "10000",
+      "Imagen": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_640/https://www.cehipar.es/wp-content/uploads/2020/07/Mesa-de-comedor.jpg",
+      "Categoria": "Comedor",
+      "id": 9
+    },
+    {
+      "idP": 10,
+      "Nombre": "Sillas de comedor",
+      "Precio": "300",
+      "Imagen": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_640/https://www.cehipar.es/wp-content/uploads/2020/07/Silla-de-comedor.jpg",
+      "Categoria": "Comedor",
+      "id": 10
+    },
+    {
+      "idP": 11,
+      "Nombre": "Sofás adicionales",
+      "Precio": "15000",
+      "Imagen": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_640/https://www.cehipar.es/wp-content/uploads/2020/07/Sofa-seccional.jpg",
+      "Categoria": "Salon",
+      "id": 11
+    },
+    {
+      "idP": 12,
+      "Nombre": "Muebles de televisor",
+      "Precio": "5000",
+      "Imagen": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_640/https://www.cehipar.es/wp-content/uploads/2020/07/Mueble-de-televisor.jpg",
+      "Categoria": "Salon",
+      "id": 12
+    },
+    {
+      "idP": 13,
+      "Nombre": "Biblioteca",
+      "Precio": "10000",
+      "Imagen": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_640/https://www.cehipar.es/wp-content/uploads/2020/07/Biblioteca.jpg",
+      "Categoria": "Oficina",
+      "id": 13
+    },
+    {
+      "idP": 14,
+      "Nombre": "Futon",
+      "Precio": "5000",
+      "Imagen": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_640/https://www.cehipar.es/wp-content/uploads/2020/07/Futon.jpg",
+      "Categoria": "Salon",
+      "id": 14
+    },
+    {
+      "idP": 15,
+      "Nombre": "Litera",
+      "Precio": "5000",
+      "Imagen": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_640/https://www.cehipar.es/wp-content/uploads/2020/07/Litera.jpg",
+      "Categoria": "Dormitorio",
+      "id": 15
+    },
+    {
+      "idP": 16,
+      "Nombre": "Mesita de cafe",
+      "Precio": "2000",
+      "Imagen": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_640/https://www.cehipar.es/wp-content/uploads/2020/07/Mesa-de-cafe.jpg",
+      "Categoria": "Salon",
+      "id": 16
+    },
+    {
+      "idP": 17,
+      "Nombre": "Taburetes",
+      "Precio": "5000",
+      "Imagen": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_640/https://www.cehipar.es/wp-content/uploads/2020/07/Taburete.jpg",
+      "Categoria": "Cocina",
+      "id": 17
+    },
+    {
+      "idP": 18,
+      "Nombre": "Mesa auxiliar",
+      "Precio": "400",
+      "Imagen": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_640/https://www.cehipar.es/wp-content/uploads/2020/07/Mesas-auxiliares-de-sal%C3%B3n.jpg",
+      "Categoria": "Salon",
+      "id": 18
+    },
+    {
+      "idP": 19,
+      "Nombre": "Mesa de noche",
+      "Precio": "3000",
+      "Imagen": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_640/https://www.cehipar.es/wp-content/uploads/2020/07/mesa-de-noche.jpg",
+      "Categoria": "Dormitorio",
+      "id": 19
+    },
+    {
+      "idP": 20,
+      "Nombre": "Mini bar",
+      "Precio": "9000",
+      "Imagen": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_640/https://www.cehipar.es/wp-content/uploads/2020/07/Minibar.jpg",
+      "Categoria": "Salon",
+      "id": 20
+    },
+    {
+      "idP": 21,
+      "Nombre": "Islas para cocina",
+      "Precio": "10000",
+      "Imagen": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_640/https://www.cehipar.es/wp-content/uploads/2020/07/Isla-de-cocina.jpg",
+      "Categoria": "Cocina",
+      "id": 21
+    },
+    {
+      "idP": 22,
+      "Nombre": "Armario",
+      "Precio": "10000",
+      "Imagen": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_640/https://www.cehipar.es/wp-content/uploads/2020/07/Armario.jpg",
+      "Categoria": "Dormitorio",
+      "id": 22
+    },
+    {
+      "idP": 23,
+      "Nombre": "Banco de almacenamiento",
+      "Precio": "3000",
+      "Imagen": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_640/https://www.cehipar.es/wp-content/uploads/2020/07/Bancos-de-almacenamiento.jpg",
+      "Categoria": "Dormitorio",
+      "id": 23
+    },
+    {
+      "idP": 24,
+      "Nombre": "Organizador de juguetes",
+      "Precio": "4000",
+      "Imagen": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_640/https://www.cehipar.es/wp-content/uploads/2020/07/Organizadores-de-juguetes.jpg",
+      "Categoria": "Dormitorio",
+      "id": 24
+    },
+    {
+      "idP": 25,
+      "Nombre": "Pechero de pared",
+      "Precio": "12000",
+      "Imagen": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_640/https://www.cehipar.es/wp-content/uploads/2020/07/Percheros-de-pared.jpg",
+      "Categoria": "Dormitorio",
+      "id": 25
+    },
+    {
+      "idP": 26,
+      "Nombre": "Mueble pequeño",
+      "Precio": "4000",
+      "Imagen": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_640/https://www.cehipar.es/wp-content/uploads/2020/07/Muebles-peque%C3%B1os.jpg",
+      "Categoria": "Oficina",
+      "id": 26
+    },
+    {
+      "idP": 27,
+      "Nombre": "Silla decorativa",
+      "Precio": "2000",
+      "Imagen": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_640/https://www.cehipar.es/wp-content/uploads/2020/07/Sillas-decorativas.jpg",
+      "Categoria": "Salon",
+      "id": 27
+    },
+    {
+      "idP": 28,
+      "Nombre": "Patas de mueble",
+      "Precio": "300",
+      "Imagen": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_640/https://www.cehipar.es/wp-content/uploads/2020/07/Patas-de-muebles.jpg",
+      "Categoria": "Comedor",
+      "id": 28
+    },
+    {
+      "idP": 29,
+      "Nombre": "Mueble de jardin",
+      "Precio": "15000",
+      "Imagen": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_640/https://www.cehipar.es/wp-content/uploads/2020/07/Muebles-para-jard%C3%ADn.jpg",
+      "Categoria": "Jardin",
+      "id": 29
+    }
+  ]
+}

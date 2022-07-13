@@ -1,0 +1,23 @@
+.card {
+    width: 18rem;
+    height: 24rem;
+    max-width: 18rem;
+    max-height: 24rem;
+    text-align: center;
+}
+
+.arriba {
+    height: 70%;
+}
+
+.tx {
+    height: 30%;
+}
+
+.Paginacion{
+    text-align: center;
+}
+.input-group{
+    width: 400px;
+    margin: auto;
+  }

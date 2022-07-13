@@ -1,0 +1,79 @@
+* {
+    margin:0px ;
+    padding:0px ;
+	box-sizing: border-box;
+}
+/*h1{
+    font: bold 50px verdana, sans-serif;
+    color: white;
+    text-shadow: 5px  0px 0px black,
+               0px  5px 0px black,
+              -5px  0px 0px black,
+               0px -5px 0px black
+}*/
+
+.parallax {
+  /* The image used */
+  background-image: url("img_parallax.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#p{
+font-size: 50px;
+color: white;
+text-align: center;
+}
+
+#p2{
+    font-size: 20px;
+    color: white;
+    text-align: left;
+}
+
+#p3{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+body{
+    background-color: transparent;
+}
+
+#estructura{
+    width: 1000px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+#banner{
+    background-image: url("/assets/Imagenes/Muebles.jpg");
+    padding: 100px 200px 200px 100px;
+    text-align: center;
+    border: solid 16px;
+    border-color: black;
+    border-radius: 200px;
+}
+
+#menu{
+    background: rgb(23, 0, 128);
+    color: #ffffff;
+    padding: 10px 20px ;
+}
+
+#menu li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px 8px;
+    font: bold 12px verdana, sans-serif;
+}
+
+

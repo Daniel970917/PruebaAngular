@@ -1,0 +1,14 @@
+.content{
+    float: left;
+    width: 60%;
+    min-height: 200px;
+    max-height: 200px;
+   
+}
+
+aside{
+    float: right;
+    width: 40%;
+    min-height: 200px;
+    
+}
